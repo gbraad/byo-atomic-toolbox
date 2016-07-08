@@ -4,3 +4,5 @@ RUN dnf install -y rpm-ostree-toolbox; \
     dnf clean all
 
 WORKDIR /home/working
+
+CMD bash
