@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/gbraad/byo-atomic:latest
+FROM registry.gitlab.com/gbraad/byo-atomic:23
 
 RUN dnf install -y rpm-ostree-toolbox; \
     dnf clean all
