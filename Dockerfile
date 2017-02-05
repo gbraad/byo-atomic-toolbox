@@ -1,6 +1,6 @@
-FROM registry.gitlab.com/gbraad/byo-atomic:23
+FROM registry.gitlab.com/gbraad/byo-atomic:f25
 
-RUN dnf install -y rpm-ostree-toolbox; \
+RUN dnf install -y rpm-ostree-toolbox && \
     dnf clean all
 
 WORKDIR /workspace
